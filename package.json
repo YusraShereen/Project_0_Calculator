@@ -1,0 +1,38 @@
+{
+  "name": "project_0_calculator",
+  "version": "1.0.0",
+  "description": "simple calculator",
+  "main": "test/index.js",
+  "types": "test/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "YS_calc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YusraShereen/Project_0_Calculator.git"
+  },
+  "keywords": [
+    "calculator"
+  ],
+  "author": "Yusra Shereen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YusraShereen/Project_0_Calculator/issues"
+  },
+  "homepage": "https://github.com/YusraShereen/Project_0_Calculator#readme",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/node": "^18.11.18",
+    "@types/readline-sync": "^1.4.4"
+  },
+  "dependencies": {
+    "@types/inquirer": "^9.0.3",
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4",
+    "readline-sync": "^1.4.10"
+  }
+}
